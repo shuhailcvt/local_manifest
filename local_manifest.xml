@@ -4,8 +4,7 @@
     <remote name="bieltv3" fetch="git://github.com/bieltv3/" />
     <remote name="erikcas" fetch="git://github.com/erikcas/" />
     <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="bieltv3" revision="jellybean" />
-    <project path="kernel/samsung/cooper" name="samsung_kernel_msm7x27" remote="jellaxy" revision="jellybean" />
-    <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="jellaxy" revision="jellybean" />
+    <project path="kernel/samsung/cooper" name="samsung_kernel_msm7x27" remote="bieltv3" revision="jellybean" />
     <remove-project name="CyanogenMod/android_frameworks_av" path="frameworks/av" />
     <project path="frameworks/av" name="android_frameworks_av" remote="jellaxy" revision="jellybean" />
     <remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
